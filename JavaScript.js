@@ -49,8 +49,7 @@
               "POST",
               "https://api.checkr.com/js/candidates",
               candidateData,
-              //"756d5722f9aa0284900bca42b24616ddd296c7ba",
-              "70d0c1af5dd71e5fc3459a402fd867727f2b4073",
+              "API_Key",
               "candidate"
             ).then((responseData) => {
               var jsonResponse = JSON.parse(responseData);
