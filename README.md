@@ -12,7 +12,7 @@ Task:
 - On Form Submit, A checkr candidate must be created. Immediately after Checkr Candidate creation, we want to send an background check invitation to checkr candidate.
 
 Note:
-- Here are two tasks that need to be address here; candidate creation and invitation creation.
+- There are two tasks that need to be address here; candidate creation and invitation creation.
 - Each require a different API call with different requirements on how/where to call the endpoint. For example, you can access the Checkr's Candidate Endpoint through front-end code, but YOU CANNOT access Checkr's invitation endpoint through front-end code. All requests for invitations must be delivered through backend code.
 
 Result:
